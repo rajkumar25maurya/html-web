@@ -1,0 +1,106 @@
+@media only screen and (max-width: 767px){
+	
+	#headerCntr { padding: 10px 15px; background: #02b9f5; }
+	
+	.menuBox { padding: 85px 0; left: -0px; }
+	.menuBox.open { padding: 85px 22px 0 22px; left: -270px; width: 270px; }
+	
+	.logoBox, .logoBox.open { padding: 0px; min-width: auto; min-height: auto; }
+	.logoBox.open .logo { width: 80px; }
+	.logoBox .logo { width: 80px; }
+	.logoBox .menutoggle { margin: 17px 0 0 20px; width: 35px;	}
+	.logoBox.open .menutoggle { margin: 17px 0 0 20px; width: 35px;	}
+	
+	
+	
+	.accountBox { margin: 2px 0 0 0; }
+	.accountBox .account { margin: 12px 0 0 0; font-size: 0px; }
+	.accountBox .account img { width: 20px; }
+	.accountBox .user > a { padding: 0px; font-size: 0px; }
+	.accountBox .user figure { margin: 0px; width: 45px; height: 45px; }
+	
+	
+	.userdetailsBox, .userdetailsBox.open { padding: 105px 15px; }
+	.userdetailsBox .correspondance table th { padding: 12px; }
+	.userdetailsBox .correspondance table td { padding: 12px; font-size: 12px; }
+	
+	.userdetailsBox .step li { margin-bottom: 10px; width: 100%; }
+	.userdetailsBox .stepform > .row { padding: 0px; }
+	.userdetailsBox .stepform .fgroup select.style { margin-bottom: 5px; }
+	.userdetailsBox .stepform .ques { font-size: 16px; line-height: normal; }
+	
+	.userdetailsBox .usertab li a { padding: 10px 22px; font-size: 12px; }
+	.userdetailsBox .usertab li { margin-bottom: 5px; }
+	
+	.userdetailsBox .userdetls table { font-size: 12px; display: table; }
+	.userdetailsBox .stepform .reviewtitle { padding-bottom: 30px; }
+	
+	.userdetailsBox .stepform .custom-upload { width: 100%; height: 83px; }
+	.userdetailsBox .stepform .custom-upload .fake-file input { width: 100%; }
+	.userdetailsBox .stepform .custom-upload a { margin-top: 10px; }
+			
+	
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	
+	.userdetailsBox .correspondance table { display: table; }
+	
+	.userdetailsBox .step li { padding: 9px 30px 9px 40px; width: auto; }
+	
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+	
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+	.logoBox.open { padding: 20px 20px 14px 20px; min-width: 250px; }
+	
+	.menuBox.open { width: 250px; }
+	
+	.accountBox .user > a { padding: 22px 20px; }
+	
+	.userdetailsBox.open { padding-left: 280px; }
+	.userdetailsBox .correspondance table { display: table; }
+	.userdetailsBox .correspondance table th { padding: 12px; }
+	.userdetailsBox .correspondance table td { padding: 12px; font-size: 12px; }
+	
+	.userdetailsBox .stepform > .row { padding: 0px; }
+	.userdetailsBox .step li { padding: 9px 33px 9px 38px; }
+	.userdetailsBox .stepform .fgroup span { font-size: 15px; }
+	
+	.userdetailsBox .usertab li a { padding: 10px 22px; font-size: 12px; }
+	.userdetailsBox .usertab li { margin-bottom: 5px; }
+	
+	.userdetailsBox .userdetls table { font-size: 12px; display: table; }
+	
+	.userdetailsBox .stepform .reviewtitle { padding-bottom: 30px; }
+	
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	
+	.logoBox.open { padding: 20px 20px 14px 20px; min-width: 250px; }
+	
+	.menuBox.open { width: 250px; }
+	
+	.accountBox .user > a { padding: 22px 20px; }
+	
+	.userdetailsBox.open { padding-left: 280px; }
+	.userdetailsBox .stepform > .row { padding: 0px; }
+	
+	.userdetailsBox .userdetls table { font-size: 12px; display: table; }
+	
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1348px){
+	
+	
+	
+}
